@@ -1,0 +1,21 @@
+$background-color:rgb(12, 29, 104);
+$color:white;
+$border-background-color:rgb(172, 16, 16);
+
+.nav-tabs {
+  background-color: $background-color;
+  border-top: 2px solid $border-background-color;
+  li.nav-item a {
+    background-color: $background-color;
+    color: $color;
+    border-color: $background-color;
+
+    &:hover {
+      background-color: $border-background-color;
+      color: $color;
+      border-color: $border-background-color;
+    }
+  }
+
+ 
+}
