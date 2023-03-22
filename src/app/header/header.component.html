@@ -1,23 +1,42 @@
-<ul ngbNav #nav="ngbNav" [activeId]="2" class="nav-tabs justify-content-center">
-  <li [ngbNavItem]="1">
-    <a ngbNavLink>HOME</a>
-    <ng-template ngbNavContent>
-      <p>Raw denim</p>
-    </ng-template>
-  </li>
-
-  <li ngbDropdown class="nav-item">
-    <a href (click)="(false)" class="nav-link" ngbDropdownToggle
-      >DEGREE PROGRAMS</a
-    >
-    <div ngbDropdownMenu>
-      <button ngbDropdownItem>Action</button>
-      <button ngbDropdownItem>Another action</button>
-      <button ngbDropdownItem>Something else here</button>
-      <div class="dropdown-divider"></div>
-      <button ngbDropdownItem>Separated link</button>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="logo">
+        <h5>University of Houston</h5>
+        <h3>DOWNTOWN</h3>
+      </div>
+      <div class="head-para">
+        <h4>
+          call 713-221-8522 to speak to an admission counselor or complete the
+          form below to learn more!
+        </h4>
+      </div>
     </div>
-  </li>
+  </div>
+</div>
+
+<ul ngbNav #nav="ngbNav" [activeId]="2" class="nav-tabs justify-content-left">
+  <div class="navlinks">
+    <li [ngbNavItem]="1">
+      <a ngbNavLink>HOME</a>
+      <ng-template ngbNavContent>
+        <p>Raw denim</p>
+      </ng-template>
+    </li>
+
+    <li ngbDropdown class="nav-item">
+      <a href (click)="(false)" class="nav-link" ngbDropdownToggle
+        >DEGREE PROGRAMS</a
+      >
+      <div ngbDropdownMenu>
+        <button ngbDropdownItem>Action</button>
+        <button ngbDropdownItem>Another action</button>
+        <button ngbDropdownItem>Something else here</button>
+        <div class="dropdown-divider"></div>
+        <button ngbDropdownItem>Separated link</button>
+      </div>
+    </li>
+  </div>
 </ul>
 
 <div [ngbNavOutlet]="nav" class="mt-2"></div>
