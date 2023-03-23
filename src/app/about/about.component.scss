@@ -1,0 +1,21 @@
+.container {
+  width: 58%;
+  .row {
+    margin-top: 50px;
+    .col {
+      display: flex;
+      justify-content: center;
+      .about {
+        .about-heading {
+          font-size: 25px;
+          color: darkblue;
+          margin-bottom: 20px;
+        }
+        .about-para {
+          color: black;
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+}
