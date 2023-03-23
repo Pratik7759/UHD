@@ -7,7 +7,10 @@ $border-background-color: rgb(172, 16, 16);
   border-top: 4px solid $border-background-color;
   .navlinks {
     display: flex;
-    margin-left: 245px;
+    margin-left: 402px;
+}
+span{
+  color:red;
 }
 
   li.nav-item a {
@@ -24,18 +27,31 @@ $border-background-color: rgb(172, 16, 16);
 
 
 }
+.container{
+  width:58%;
+}
 .col {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   .head-para {
     margin-left: 170px;
+    text-align: right;
+    font-size: 22px;
+    margin-top:12px;
+    margin-bottom: -10px;
   }
-  .logo {
-    width: 300px;
-  }
+  
 }
 
 ul.nav-tabs.justify-content-left.nav {
     height: 47px;
+}
+.img1{
+  width:250px;
+  margin-top:26px;
+
+}
+span.number {
+  color: red;
 }

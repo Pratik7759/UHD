@@ -5,12 +5,14 @@ import { NgIf } from '@angular/common';
 @Component({
   selector: 'app-banner',
   standalone: true,
-  imports: [NgbCarouselModule, NgIf],  templateUrl: './banner.component.html',
+  imports: [NgbCarouselModule, NgIf], 
+  templateUrl: './banner.component.html',
   styleUrls: ['./banner.component.scss'],
   providers: [NgbCarouselConfig], 
 })
 export class BannerComponent {
-	images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
+	
+	images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/1920/550`);
 
 	constructor(config: NgbCarouselConfig) {
 		// customize default values of carousels used by this component tree
