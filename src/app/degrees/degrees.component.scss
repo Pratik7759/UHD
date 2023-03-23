@@ -1,0 +1,22 @@
+.degree-container {
+  width: 58%;
+  margin-left: 21%;
+  margin-top: 50px;
+  .degree-heading {
+    font-size: 25px;
+    font-weight: 500;
+    color: darkblue;
+  }
+  .degree-para {
+    color: black;
+  }
+  .degree-buttons {
+    display: flex;
+    justify-content: center;
+
+    .degree-btn {
+      border: none;
+      padding: 5px;
+    }
+  }
+}

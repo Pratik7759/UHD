@@ -12,8 +12,9 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { DegreesComponent } from './degrees/degrees.component';
 @NgModule({
-  declarations: [AppComponent, HeaderComponent,FormsComponent, FooterComponent, AboutComponent ],
+  declarations: [AppComponent, HeaderComponent,FormsComponent, FooterComponent, AboutComponent, DegreesComponent ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, BannerComponent, BrowserAnimationsModule,FormsModule,ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
