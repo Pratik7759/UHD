@@ -7,11 +7,11 @@ $border-background-color: rgb(172, 16, 16);
   border-top: 4px solid $border-background-color;
   .navlinks {
     display: flex;
-    margin-left: 402px;
-}
-span{
-  color:red;
-}
+    margin-left: 14vw;
+  }
+  span {
+    color: red;
+  }
 
   li.nav-item a {
     background-color: $background-color;
@@ -24,34 +24,27 @@ span{
       border-color: $border-background-color;
     }
   }
-
-
 }
-.container{
-  width:58%;
-}
-.col {
-  display: flex;
-  justify-content: space-evenly;
-
-  .head-para {
-    margin-left: 170px;
-    text-align: right;
-    font-size: 22px;
-    margin-top:12px;
-    margin-bottom: -10px;
-  }
-  
-}
-
-ul.nav-tabs.justify-content-left.nav {
-    height: 47px;
-}
-.img1{
-  width:250px;
-  margin-top:26px;
-
+.img1 {
+  width: 250px;
+  margin-top: 26px;
 }
 span.number {
   color: red;
+}
+.top {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  margin-bottom: -0.5%;
+  .item1 {
+    margin-left: 13vw;
+  }
+  .item2 {
+    text-align: right;
+    margin-right: 13vw;
+    font-size: 20px;
+    margin-top:15px;
+    width:30%;
+  }
 }
