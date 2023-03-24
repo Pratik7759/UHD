@@ -13,8 +13,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { DegreesComponent } from './degrees/degrees.component';
+import { WhyuhdComponent } from './whyuhd/whyuhd.component';
+import { ChooseComponent } from './choose/choose.component';
+import { MainfooterComponent } from './mainfooter/mainfooter.component';
 @NgModule({
-  declarations: [AppComponent, HeaderComponent,FormsComponent, FooterComponent, AboutComponent, DegreesComponent ],
+  declarations: [AppComponent, HeaderComponent,FormsComponent, FooterComponent, AboutComponent, DegreesComponent, WhyuhdComponent, ChooseComponent, MainfooterComponent ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, BannerComponent, BrowserAnimationsModule,FormsModule,ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
